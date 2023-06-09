@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Stack;
 import java.util.Vector;
 
 public class Main {
@@ -35,5 +36,9 @@ public class Main {
         Vector<String> vector = new Vector<>();
         vector.addAll(names);
         System.out.println(vector);
+
+        Stack<String> stack = new Stack<>();
+        stack.addAll(vector);
+        System.out.println(stack);
     }
 }
