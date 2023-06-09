@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Vector;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,5 +28,12 @@ public class Main {
 
         names.add(0, "Pahar");
         System.out.println(names);
+
+//        names.clear();
+//        System.out.println(names);
+
+        Vector<String> vector = new Vector<>();
+        vector.addAll(names);
+        System.out.println(vector);
     }
 }
