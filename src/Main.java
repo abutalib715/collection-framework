@@ -1,17 +1,31 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        System.out.println("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        ArrayList rand = new ArrayList();
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        rand.add(true);
+        rand.add("Ta;o");
+        rand.add(444);
+
+        LinkedList<String> names = new LinkedList();
+
+        names.add("Akash");
+        names.add("Batash");
+        names.add(String.valueOf(656));
+        System.out.println(names);
+
+        System.out.println(rand.size());
+        System.out.println(names.contains("Akash"));
+        System.out.println(names.isEmpty());
+
+        names.set(0, "Nodi");
+        System.out.println(names);
+
+        names.add(0, "Pahar");
+        System.out.println(names);
     }
 }
