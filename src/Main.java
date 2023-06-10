@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Stack;
-import java.util.Vector;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -40,5 +37,21 @@ public class Main {
         Stack<String> stack = new Stack<>();
         stack.addAll(vector);
         System.out.println(stack);
+
+        System.out.println("_________________________________");
+
+        HashSet<Double> numbers = new HashSet<>();
+
+        numbers.add(14.55);  //AUTO BOXING
+        numbers.add(45.545);
+        numbers.add(12.2);
+        numbers.add(14.55);
+        numbers.add(5.3);
+
+        System.out.println(numbers);
+
+        TreeSet<Double> tset = new TreeSet<>();
+        tset.addAll(numbers);
+        System.out.println(tset);
     }
 }
