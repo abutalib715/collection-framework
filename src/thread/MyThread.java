@@ -1,3 +1,5 @@
+package thread;
+
 // CREATING THREAD USING RUNNABLE INTERFACE
 public class MyThread implements Runnable {
     public void run() {

@@ -1,3 +1,5 @@
+package thread;
+
 // CREATING THREAD USING EXTEND THREAD CLASS
 public class MySecondThread extends Thread{
 
